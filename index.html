@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="hero">
+  <h2 id="typing-text"></h2>
+  <p>Frontend Developer | Chemical Engg. @ IIT BHU | Problem Solver</p>
+  <a href="#contact"><button class="btn"><span>Hire Me</span></button></a>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div style="text-align:center; margin-bottom: 20px;">
+    <img src="profile.jpg" alt="Profile Picture" style="width: 280px; height: 280px; border-radius: 50%; object-fit: cover; border: 6px solid var(--accent1); box-shadow: 0 0 20px var(--accent2);">
+  </div>
+  <ul class="list">
+    <li>
+      <h4>Competitive Programmer</h4>
+      <p>I thrive in the world of logic and speed — constantly sharpening my skills through contests, challenges, and problem-solving marathons.</p>
+    </li>
+    <li>
+      <h4>Problem-Solving Aficionado</h4>
+      <p>From cracking brain-teasing puzzles to breaking down real-life problems, I live for the "Eureka!" moments.</p>
+    </li>
+    <li>
+      <h4>Passionate Learner</h4>
+      <p>Deeply curious about <strong>physics</strong>, <strong>chemistry</strong>, and <strong>mathematics</strong> — the holy trinity that shapes my analytical thinking and engineering mindset.</p>
+    </li>
+    <li>
+      <h4>Sports Enthusiast</h4>
+      <p>Whether it's badminton, football, or cricket — I’m all in.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skill-list">
+    <div class="skill-item">C</div>
+    <div class="skill-item">C++</div>
+    <div class="skill-item">JavaScript</div>
+    <div class="skill-item">HTML & CSS</div>
+    <div class="skill-item">Data Structures</div>
+    <div class="skill-item">Algorithms</div>
+    <div class="skill-item">Competitive Programming</div>
+    <div class="skill-item">Web Development</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Experience</h2>
+  <ul class="list">
+    <li>
+      <h4>Hospitality Coordinator, Technex’24 (IIT BHU)</h4>
+      <p>Managed guest arrangements and logistics for 2,000+ participants, ensuring smooth event operations.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="achievements">
+  <h2 class="section-title">Honours & Achievements</h2>
+  <ul class="list">
+    <li>
+      <h4>Codeforces Specialist</h4>
+      <p>Max Rating: 1563 (<a href="https://codeforces.com/profile/NapZilla" target="_blank">NapZilla</a>)</p>
+    </li>
+    <li>
+      <h4>3-Star on CodeChef</h4>
+      <p>Max Rating: 1689 (<a href="https://www.codechef.com/users/napzilla" target="_blank">napzilla</a>)</p>
+    </li>
+    <li>
+      <h4>LeetCode Profile</h4>
+      <p>Solved 600+ problems (<a href="https://leetcode.com/u/Napzilla/" target="_blank">NapZilla</a>)</p>
+    </li>
+    <li>
+      <h4>JEE Advanced</h4>
+      <p>Top 1% among 1M+ aspirants.</p>
+    </li>
+    <li>
+      <h4>Badminton Runner-up</h4>
+      <p>So-chem Tournament 2024 & 2025.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <div class="project-preview">
+        <iframe src="https://napzillaa.github.io/Dictionary/" width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+      <div class="project-description">
+        <h3>Dictionary App</h3>
+        <p>
+          Search word definitions with pronunciation and examples.<br/>
+          <a href="https://napzillaa.github.io/Dictionary/" target="_blank">View Live</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn"><span>Send Message</span></button>
+  </form>
+  <p id="formMsg" style="text-align:center; margin-top:15px;"></p>
+</section>
+
+<footer>© 2025 Himanshu Kumar | All rights reserved</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
